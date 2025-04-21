@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    from fastapi import FastAPI, HTTPException, Depends, UploadFile, File, Response, Query, APIRouter
+ModuleNotFoundError: No module named 'fastapi'

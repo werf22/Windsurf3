@@ -1,0 +1,1 @@
+INSERT INTO tasks (id, name, description, notes, portfolio, project, section, priority, due_date, start_date, created_at, completed_at, updated_at) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

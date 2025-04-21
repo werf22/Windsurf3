@@ -1,0 +1,1460 @@
+INFO:     Will watch for changes in these directories: ['/Users/test/Desktop/Windsurf3']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [78948] using WatchFiles
+INFO:     Started server process [78960]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+PYTHON EXECUTABLE: /Users/test/myenv/bin/python3.12
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49276 - "GET /api/login HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49278 - "GET /api/tasks HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49280 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49290 - "GET /api/priorities HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49292 - "GET /api/portfolios HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49295 - "GET /api/projects HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49299 - "GET /api/statuses HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49297 - "GET /api/sections HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49301 - "GET /api/tags HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49317 - "GET /api/recurrence-frequencies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49318 - "GET /api/deadline-types HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49316 - "GET /api/assignees HTTP/1.1" 401 Unauthorized
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49319 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49320 - "GET /api/priorities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49321 - "GET /api/portfolios HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49328 - "GET /api/statuses HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49327 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49330 - "GET /api/sections HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49335 - "GET /api/tags HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49337 - "GET /api/recurrence-frequencies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49339 - "GET /api/deadline-types HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49344 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49345 - "GET /api/assignees HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78960]
+INFO:     Stopping reloader process [78948]
+INFO:     Will watch for changes in these directories: ['/Users/test/Desktop/Windsurf3']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [81109] using WatchFiles
+INFO:     Started server process [81116]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+PYTHON EXECUTABLE: /Users/test/myenv/bin/python3.12
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49454 - "GET /api/login HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49456 - "GET /api/tasks HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49458 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49469 - "GET /api/priorities HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49472 - "GET /api/projects HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49473 - "GET /api/portfolios HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49477 - "GET /api/statuses HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49475 - "GET /api/sections HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49479 - "GET /api/tags HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49491 - "GET /api/recurrence-frequencies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49494 - "GET /api/deadline-types HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49490 - "GET /api/assignees HTTP/1.1" 401 Unauthorized
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49497 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49495 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49496 - "GET /api/priorities HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49502 - "GET /api/statuses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49503 - "GET /api/portfolios HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49507 - "GET /api/sections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49515 - "GET /api/deadline-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49513 - "GET /api/recurrence-frequencies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49512 - "GET /api/tags HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49519 - "GET /api/assignees HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49521 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49840 - "GET /api/login HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49842 - "GET /api/tasks HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49844 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49854 - "GET /api/priorities HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49856 - "GET /api/portfolios HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49858 - "GET /api/projects HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49860 - "GET /api/sections HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49862 - "GET /api/statuses HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49864 - "GET /api/tags HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49878 - "GET /api/deadline-types HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49879 - "GET /api/recurrence-frequencies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49877 - "GET /api/assignees HTTP/1.1" 401 Unauthorized
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49881 - "GET /api/priorities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49880 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49882 - "GET /api/portfolios HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49887 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/statuses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "GET /api/sections HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49896 - "GET /api/tags HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49899 - "GET /api/deadline-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49900 - "GET /api/recurrence-frequencies HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:49905 - "GET /api/assignees HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49906 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50060 - "GET /api/login HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50063 - "GET /api/tasks HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50065 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50074 - "GET /api/priorities HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50076 - "GET /api/portfolios HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50078 - "GET /api/projects HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50080 - "GET /api/sections HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50082 - "GET /api/statuses HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50085 - "GET /api/tags HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50094 - "GET /api/deadline-types HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50097 - "GET /api/recurrence-frequencies HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50095 - "GET /api/assignees HTTP/1.1" 401 Unauthorized
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50100 - "GET /api/priorities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50099 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50103 - "GET /api/portfolios HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50107 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50112 - "GET /api/statuses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50110 - "GET /api/sections HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50117 - "GET /api/tags HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50120 - "GET /api/deadline-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50121 - "GET /api/recurrence-frequencies HTTP/1.1" 200 OK
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+DEBUG: Attempt user='jakub', pass='cerulik123', expected='jakub'/'cerulik123'
+INFO:     127.0.0.1:50125 - "GET /api/assignees HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50127 - "GET /api/tasks?sort_by=due_date&sort_dir=asc HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'scripts/export_task_field_config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81116]
+INFO:     Started server process [87768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'tests/test_schema_sync.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87768]
+INFO:     Started server process [87908]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'tests/test_schema_sync.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87908]
+INFO:     Started server process [87928]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'scripts/export_task_field_config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87928]
+INFO:     Started server process [87944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'scripts/export_task_field_config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87944]
+INFO:     Started server process [87962]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'scripts/export_task_field_config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87962]
+INFO:     Started server process [87977]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'tests/test_schema_sync.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87977]
+INFO:     Started server process [88044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'tests/test_schema_sync.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88044]
+INFO:     Started server process [88059]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88059]
+Process SpawnProcess-10:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 8, in <module>
+    from models import *
+  File "/Users/test/Desktop/Windsurf3/models.py", line 30, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+PYTHON EXECUTABLE: /Users/test/myenv/bin/python3.12
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+Process SpawnProcess-11:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'tests/auth/test_auth_endpoints.py'. Reloading...
+Process SpawnProcess-12:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-13:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-14:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-15:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-16:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-17:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-18:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-19:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-20:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'models.py'. Reloading...
+Process SpawnProcess-21:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'tests/test_schema_sync.py'. Reloading...
+Process SpawnProcess-22:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'tests/test_profile.py'. Reloading...
+Process SpawnProcess-23:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 1, in <module>
+    {{ ... }}
+TypeError: unhashable type: 'set'
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+Process SpawnProcess-24:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 9, in <module>
+    SECRET_KEY = os.getenv("SECRET_KEY", "devsecret")
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+Process SpawnProcess-25:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 16, in <module>
+    @api_router.post("/register", response_model=UserRead)
+     ^^^^^^^^^^
+NameError: name 'api_router' is not defined
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+Process SpawnProcess-26:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 23, in <module>
+    def register(user: UserCreate, session: Session = Depends(get_session)):
+                                                              ^^^^^^^^^^^
+NameError: name 'get_session' is not defined
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Started server process [89341]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:0 - "GET /api/tasks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:0 - "GET /api/tasks HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'tests/test_profile.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89341]
+INFO:     Started server process [89356]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89356]
+INFO:     Started server process [89375]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89375]
+INFO:     Started server process [90407]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90407]
+Process SpawnProcess-31:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/test/Desktop/Windsurf3/main.py", line 141, in <module>
+    class Task(SQLModel, table=True):
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlmodel/main.py", line 641, in __init__
+    DeclarativeMeta.__init__(cls, classname, bases, dict_, **kw)
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/orm/decl_api.py", line 198, in __init__
+    _as_declarative(reg, cls, dict_)
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/orm/decl_base.py", line 244, in _as_declarative
+    return _MapperConfig.setup_mapping(registry, cls, dict_, None, {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/orm/decl_base.py", line 325, in setup_mapping
+    return _ClassScanMapperConfig(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/orm/decl_base.py", line 576, in __init__
+    self._setup_table(table)
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/orm/decl_base.py", line 1757, in _setup_table
+    table_cls(
+  File "<string>", line 2, in __new__
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 430, in __new__
+    return cls._new(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/myenv/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 462, in _new
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Table 'task' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Started server process [90580]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90580]
+INFO:     Started server process [90608]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90608]
+INFO:     Started server process [90634]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90634]
+INFO:     Started server process [90650]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90650]
+INFO:     Started server process [90665]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90665]
+INFO:     Started server process [90678]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90678]
+INFO:     Started server process [90706]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90706]
+INFO:     Started server process [90720]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90720]
+INFO:     Started server process [90735]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90735]
+INFO:     Started server process [90761]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90761]
+INFO:     Started server process [90779]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90779]
+INFO:     Started server process [90800]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90800]
+INFO:     Started server process [90813]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90813]
+INFO:     Started server process [90839]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90839]
+INFO:     Started server process [90854]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90854]
+INFO:     Started server process [90868]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90868]
+INFO:     Started server process [90882]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90882]
+INFO:     Started server process [90896]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90896]
+INFO:     Started server process [90912]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90912]
+INFO:     Started server process [90915]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90915]
+INFO:     Started server process [90930]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90930]
+INFO:     Started server process [90943]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90943]
+INFO:     Started server process [90968]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90968]
+INFO:     Started server process [90982]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90982]
+INFO:     Started server process [90996]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90996]
+INFO:     Started server process [91014]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:63428 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63904 - "GET /login HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:64568 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:64911 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:64975 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:65025 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:65289 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:65393 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:65443 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:65506 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49378 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49734 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49789 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49873 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49924 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50062 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50127 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50200 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50461 - "GET /register HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50547 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50806 - "GET /dashboard HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50883 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51154 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51916 - "POST /login HTTP/1.1" 422 Unprocessable Entity
+2025-04-21 12:26:50,813 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:26:50,820 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:26:50,821 INFO sqlalchemy.engine.Engine [generated in 0.00018s] ('jakub',)
+2025-04-21 12:26:50,824 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:51997 - "POST /login HTTP/1.1" 401 Unauthorized
+2025-04-21 12:27:32,893 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:27:32,895 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:27:32,895 INFO sqlalchemy.engine.Engine [generated in 0.00019s] ('jakub', 'jakub@example.com')
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/test/myenv/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-04-21 12:27:33,305 INFO sqlalchemy.engine.Engine INSERT INTO user (username, email, hashed_password, created_at) VALUES (?, ?, ?, ?)
+2025-04-21 12:27:33,305 INFO sqlalchemy.engine.Engine [generated in 0.00017s] ('jakub', 'jakub@example.com', '$2b$12$Q32LpO1uPBmps5o6EiFypuO5HklTF4OZqnXMi.XL1aKlc3MYLHKGu', '2025-04-21 10:27:33.303808')
+2025-04-21 12:27:33,306 INFO sqlalchemy.engine.Engine COMMIT
+2025-04-21 12:27:33,307 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:27:33,308 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.id = ?
+2025-04-21 12:27:33,308 INFO sqlalchemy.engine.Engine [generated in 0.00009s] (1,)
+2025-04-21 12:27:33,311 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52095 - "POST /register HTTP/1.1" 200 OK
+2025-04-21 12:27:33,318 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:27:33,318 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:27:33,318 INFO sqlalchemy.engine.Engine [cached since 42.5s ago] ('jakub',)
+2025-04-21 12:27:33,553 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52095 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52095 - "GET /dashboard HTTP/1.1" 404 Not Found
+2025-04-21 12:29:46,807 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:29:46,808 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:29:46,808 INFO sqlalchemy.engine.Engine [cached since 133.9s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:29:46,810 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52416 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:29:46,817 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:29:46,817 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:29:46,817 INFO sqlalchemy.engine.Engine [cached since 176s ago] ('jakub',)
+2025-04-21 12:29:47,052 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52416 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:29:48,567 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:29:48,567 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:29:48,567 INFO sqlalchemy.engine.Engine [cached since 135.7s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:29:48,567 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52416 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:29:48,571 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:29:48,571 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:29:48,571 INFO sqlalchemy.engine.Engine [cached since 177.8s ago] ('jakub',)
+2025-04-21 12:29:48,805 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52416 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:31:13,783 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:13,784 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:31:13,784 INFO sqlalchemy.engine.Engine [cached since 220.9s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:31:13,787 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52637 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:31:13,793 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:13,794 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:31:13,794 INFO sqlalchemy.engine.Engine [cached since 263s ago] ('jakub',)
+2025-04-21 12:31:14,031 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52637 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:31:14,566 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:14,566 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:31:14,566 INFO sqlalchemy.engine.Engine [cached since 221.7s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:31:14,567 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52637 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:31:14,571 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:14,571 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:31:14,571 INFO sqlalchemy.engine.Engine [cached since 263.7s ago] ('jakub',)
+2025-04-21 12:31:14,806 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52637 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:31:58,410 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:58,411 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:31:58,411 INFO sqlalchemy.engine.Engine [cached since 265.5s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:31:58,415 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52774 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:31:58,422 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:31:58,422 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:31:58,422 INFO sqlalchemy.engine.Engine [cached since 307.6s ago] ('jakub',)
+2025-04-21 12:31:58,653 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52774 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:32:04,749 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:32:04,749 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:32:04,749 INFO sqlalchemy.engine.Engine [cached since 271.9s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:32:04,749 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52797 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:32:04,755 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:32:04,755 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:32:04,755 INFO sqlalchemy.engine.Engine [cached since 313.9s ago] ('jakub',)
+2025-04-21 12:32:04,987 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:52797 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:34:45,966 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:45,968 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:34:45,968 INFO sqlalchemy.engine.Engine [cached since 433.1s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:34:45,969 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53137 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:34:45,976 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:45,976 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:34:45,976 INFO sqlalchemy.engine.Engine [cached since 475.2s ago] ('jakub',)
+2025-04-21 12:34:46,194 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53137 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:34:46,561 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:46,564 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:46,564 INFO sqlalchemy.engine.Engine [generated in 0.00019s] ()
+2025-04-21 12:34:46,566 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53149 - "GET /api/tasks HTTP/1.1" 200 OK
+2025-04-21 12:34:46,573 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:46,573 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:46,573 INFO sqlalchemy.engine.Engine [cached since 0.00918s ago] ()
+2025-04-21 12:34:46,574 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53151 - "GET /api/tasks HTTP/1.1" 200 OK
+2025-04-21 12:34:47,696 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:47,696 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:47,696 INFO sqlalchemy.engine.Engine [cached since 1.132s ago] ()
+2025-04-21 12:34:47,697 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53161 - "GET /api/tasks HTTP/1.1" 200 OK
+2025-04-21 12:34:47,702 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:47,702 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:47,702 INFO sqlalchemy.engine.Engine [cached since 1.138s ago] ()
+2025-04-21 12:34:47,702 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53163 - "GET /api/tasks HTTP/1.1" 200 OK
+2025-04-21 12:34:48,222 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:48,223 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ? OR user.email = ?
+2025-04-21 12:34:48,223 INFO sqlalchemy.engine.Engine [cached since 435.3s ago] ('jakub', 'jakub@example.com')
+2025-04-21 12:34:48,223 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53137 - "POST /register HTTP/1.1" 400 Bad Request
+2025-04-21 12:34:48,227 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:48,227 INFO sqlalchemy.engine.Engine SELECT user.id, user.username, user.email, user.hashed_password, user.created_at 
+FROM user 
+WHERE user.username = ?
+2025-04-21 12:34:48,227 INFO sqlalchemy.engine.Engine [cached since 477.4s ago] ('jakub',)
+2025-04-21 12:34:48,448 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53137 - "POST /login HTTP/1.1" 200 OK
+2025-04-21 12:34:48,713 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:48,713 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:48,713 INFO sqlalchemy.engine.Engine [cached since 2.149s ago] ()
+2025-04-21 12:34:48,716 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53173 - "GET /api/tasks HTTP/1.1" 200 OK
+2025-04-21 12:34:48,744 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-04-21 12:34:48,744 INFO sqlalchemy.engine.Engine SELECT task.task_id AS task_task_id, task.name AS task_name, task.created_at AS task_created_at, task.completed_at AS task_completed_at, task.last_modified_at AS task_last_modified_at, task.assignee AS task_assignee, task.due_date AS task_due_date, task.start_date AS task_start_date, task.parent_task_id AS task_parent_task_id, task.parent_task AS task_parent_task, task.tags AS task_tags, task.task_comments AS task_task_comments, task.portfolio_id AS task_portfolio_id, task.project_id AS task_project_id, task.section_id AS task_section_id, task.priority_id AS task_priority_id, task.subtasks_in_system AS task_subtasks_in_system, task.dependents AS task_dependents, task.dependents_id AS task_dependents_id, task.outgoing_dependents AS task_outgoing_dependents, task.outgoing_dependents_id AS task_outgoing_dependents_id, task.task_purpose AS task_task_purpose, task.task_type AS task_task_type, task.estimated_user_time AS task_estimated_user_time, task.cognitive_load AS task_cognitive_load, task.energy_level_required AS task_energy_level_required, task.required_tools_software AS task_required_tools_software, task.required_hardware AS task_required_hardware, task.required_skills AS task_required_skills, task.estimated_cost_budget AS task_estimated_cost_budget, task.expected_impact_success_metric AS task_expected_impact_success_metric, task.location AS task_location, task.execution_location AS task_execution_location, task.required_devices AS task_required_devices, task.internet_requirement AS task_internet_requirement, task.focus_requirement AS task_focus_requirement, task.optimal_time_of_day AS task_optimal_time_of_day, task.collaborators AS task_collaborators, task.related_entity AS task_related_entity, task.waiting_for AS task_waiting_for, task.financial_return_value_speed AS task_financial_return_value_speed, task.ai_output_rating AS task_ai_output_rating, task.feedback_for_ai AS task_feedback_for_ai, task.suggested_initial_steps_subtasks AS task_suggested_initial_steps_subtasks, task.related_areas_for_ai_to_consider AS task_related_areas_for_ai_to_consider, task.potential_dependencies_related_tasks AS task_potential_dependencies_related_tasks, task.deadline_type AS task_deadline_type, task.recurrence_frequency AS task_recurrence_frequency, task.input_data_context AS task_input_data_context, task.desired_output_format AS task_desired_output_format, task.ai_action_process_free_text AS task_ai_action_process_free_text, task.ai_action_process_dropdown AS task_ai_action_process_dropdown, task.ai_workflow_status AS task_ai_workflow_status, task.allow_autonomous_execution AS task_allow_autonomous_execution, task.number_of_variations AS task_number_of_variations, task.desired_style_tone AS task_desired_style_tone, task.specific_constraints_instructions AS task_specific_constraints_instructions, task.ai_behavior_on_uncertainty AS task_ai_behavior_on_uncertainty, task.ai_creativity_level AS task_ai_creativity_level, task.ai_processing_priority AS task_ai_processing_priority, task.ai_agent_status_log AS task_ai_agent_status_log, task.ai_output_result_link AS task_ai_output_result_link, task.subtasks_for_user AS task_subtasks_for_user, task.subtasks_for_ai AS task_subtasks_for_ai, task.subtasks_id_in_system AS task_subtasks_id_in_system, task.ai_brainstorm_ideas_on_how_it_can_help_me AS task_ai_brainstorm_ideas_on_how_it_can_help_me, task.action_required_from_user AS task_action_required_from_user, task.related_portfolios AS task_related_portfolios, task.related_projects AS task_related_projects, task.related_sections AS task_related_sections, task.related_tasks AS task_related_tasks, task.related_tasks_id AS task_related_tasks_id, task.related_entities AS task_related_entities, task.target_audience AS task_target_audience 
+FROM task
+2025-04-21 12:34:48,744 INFO sqlalchemy.engine.Engine [cached since 2.18s ago] ()
+2025-04-21 12:34:48,745 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:53175 - "GET /api/tasks HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [91014]
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x0000000207fd4840 (most recent call first):
+  <no Python frame>
+INFO:     Stopping reloader process [81109]

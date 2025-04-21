@@ -1,0 +1,8 @@
+2025-04-16 01:12:44,054 - INFO - root - Handlers configured: ['_LiveLoggingNullHandler', '_FileHandler', 'RotatingFileHandler']
+2025-04-16 01:12:44,054 - INFO - root - Logging level set to: DEBUG
+2025-04-16 01:12:44,054 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-16 01:12:44,054 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.
+2025-04-16 01:13:07,701 - INFO - root - Handlers configured: ['_LiveLoggingNullHandler', '_FileHandler', 'RotatingFileHandler']
+2025-04-16 01:13:07,702 - INFO - root - Logging level set to: DEBUG
+2025-04-16 01:13:07,702 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-16 01:13:07,702 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.

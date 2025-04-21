@@ -1,0 +1,16 @@
+2025-04-16 15:58:52,155 - INFO - root - Handlers configured: ['StreamHandler', 'RotatingFileHandler']
+2025-04-16 15:58:52,155 - INFO - root - Logging level set to: DEBUG
+2025-04-16 15:58:52,155 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-16 15:58:52,155 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.
+2025-04-17 09:18:18,675 - INFO - root - Handlers configured: ['StreamHandler', 'RotatingFileHandler']
+2025-04-17 09:18:18,675 - INFO - root - Logging level set to: DEBUG
+2025-04-17 09:18:18,675 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-17 09:18:18,675 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.
+2025-04-17 12:11:24,530 - INFO - root - Handlers configured: ['_LiveLoggingNullHandler', '_FileHandler', 'RotatingFileHandler']
+2025-04-17 12:11:24,530 - INFO - root - Logging level set to: DEBUG
+2025-04-17 12:11:24,530 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-17 12:11:24,530 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.
+2025-04-17 13:21:44,559 - INFO - root - Handlers configured: ['StreamHandler', 'RotatingFileHandler']
+2025-04-17 13:21:44,559 - INFO - root - Logging level set to: DEBUG
+2025-04-17 13:21:44,559 - DEBUG - root - ⚡ DEBUG mode enabled: Detailed logs will be displayed, including external dependencies.
+2025-04-17 13:21:44,559 - DEBUG - root - ⚡ If the logs are too verbose, consider using logging.INFO or higher.

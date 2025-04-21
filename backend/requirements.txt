@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlmodel
+pydantic
+pandas
+pytest
+httpx
+python-dotenv
